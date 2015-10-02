@@ -5,7 +5,7 @@ $('#loading').css('display', 'initial');
 
 
     var v_data;
-
+if ($_GET('lng') == null){
 
     if (navigator.appName == 'Netscape' || 'Microsoft Internet Explorer' || 'Opera')
         var idioma = navigator.language;
@@ -14,29 +14,36 @@ $('#loading').css('display', 'initial');
 
     // alert(idioma);
 
-  v_data = loadLanguaje(v_data, idioma);
 
+
+ 
+
+} else {
+    var idioma = $_GET('lng');
+}
+
+ v_data = loadLanguaje(v_data, idioma);
     $('header').load('header.html', function(){
 
         changeLanguaje(v_data, 'header');
 
        
-
+    $('header .lang').val(idioma);        
 
 
     $('header .lang').change(function(){
         var span;
-        alert('cangre');
+        
         switch($(this).val()){
-            case '1':
+            case 'es':
                 idioma = 'es';
                 span = "<span class='icon icon-es'></span>";
                 break;
-            case '2':
+            case 'en':
                 idioma = 'en';
                 span = "<span class='icon icon-en'></span>";
                 break;
-            case '3':
+            case 'nl':
                 idioma = 'nl';
                 span = "<span class='icon icon-nl'></span>";
                 break;
@@ -45,7 +52,9 @@ $('#loading').css('display', 'initial');
                 break;
         }
 
-       
+        window.location.href = window.location.pathname + '?lng=' + idioma;
+
+       /*
 
          v_data = loadLanguaje(v_data, idioma);
 
@@ -79,7 +88,7 @@ $('#loading').css('display', 'initial');
         $('#menu').load('menu.html', function(){
             changeLanguaje(v_data, '#menu');
         });
-
+*/
     });
 
     });
@@ -198,4 +207,35 @@ function loadLanguaje(v_data, idioma){
 
     return v_data;
 
+}
+
+
+function $_GET(param)
+{
+/* Obtener la url completa */
+url = document.URL;
+/* Buscar a partir del signo de interrogación ? */
+url = String(url.match(/\?+.+/));
+/* limpiar la cadena quitándole el signo ? */
+url = url.replace("?", "");
+/* Crear un array con parametro=valor */
+url = url.split("&");
+
+/* 
+Recorrer el array url
+obtener el valor y dividirlo en dos partes a través del signo = 
+0 = parametro
+1 = valor
+Si el parámetro existe devolver su valor
+*/
+x = 0;
+while (x < url.length)
+{
+p = url[x].split("=");
+if (p[0] == param)
+{
+return decodeURIComponent(p[1]);
+}
+x++;
+}
 }
