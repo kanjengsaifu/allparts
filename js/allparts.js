@@ -1,8 +1,15 @@
 $(document).ready(function(){
-
+alert(window.location.pathname);
 $('header,#menu,#banner,#content,footer').css('display', 'none');
 $('#loading').css('display', 'initial');
 
+
+    //alert(window.location.pathname.indexOf('/'));
+    
+    var count = window.location.pathname.match(/&/g) || [];
+
+    alert(count.length);
+    
 
     var v_data;
 if ($_GET('lng') == null){
@@ -102,7 +109,7 @@ if ($_GET('lng') == null){
     $('#banner').load('banner.html', function(){
 
 
-        changeLanguaje(v_data, '#banner')
+        changeLanguaje(v_data, '#banner');
      var options = {
         autoPlay: true,
         nextButton: true,
@@ -118,7 +125,7 @@ if ($_GET('lng') == null){
 
 });
 
-    changeLanguaje(v_data, '#content');
+    changeLanguaje(v_data, '#content', '#content-inicio');
 
     $('footer').load('footer.html', function(){
 
@@ -140,17 +147,23 @@ $('#loading').css('display', 'none');
 });
 
 
-function changeLanguaje(data, element){
+function changeLanguaje(data, element, content){
 
     if (data != null) {
 
         var re;
+        if (content == null){
+            //alert('nulo');
+            content = element;
+            
+        }
+        
         $.each(data, function(key, val){
 
 
-           // alert('key: ' + key + ' val: ' + val);
+           // alert('key: ' + key + ' content: ' + content);
 
-           if (key == element){
+           if (key == content){
 
             $.each(val, function(key2, val2){
 

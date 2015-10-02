@@ -28,7 +28,7 @@
 			"subtitlee_4" : "Distribuidor de repuestos para maquinaria marina."
 		},
 
-		"#content" : {
+		"#content-inicio" : {
 			"lateral_1" : "Suministramos",
 			"sublaterall_1" : "Suministramos las siguientes marcas",
 			"article_1" : "Bienvenido a All Parts & Engines",
@@ -104,7 +104,7 @@
 			"subtitlee_4" : "Distributeur van onderdelen voor de scheepvaart machines."
 		},
 
-		"#content" : {
+		"#content-inicio" : {
 			"lateral_1" : "Levering",
 			"sublaterall_1" : "Wij leveren de volgende merken",
 			"article_1" : "Welkom bij All Parts & Engines",
