@@ -127,7 +127,11 @@ if ($_GET('lng') == null){
     });
 
 
-
+(function($) {
+	$(function() {
+		$("#scroller").simplyScroll();
+	});
+})(jQuery);
 
 
 $('header,#menu,#banner,#content,footer').css('display', 'block');
