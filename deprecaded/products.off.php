@@ -1,65 +1,87 @@
-
-
-<section>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>EuroAmerica Parts and Engines, Freezone Aruba VBA</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <a href="index.off.html"><img src="images/logo.png" width="200px" id="logo"></a>
+      <a href="productos.php?tipoPro=0" class="lang">Español <img src="images/spanish.png" width="25px" id="lan"></a>
+      <h2>DIESEL ENGINES AND PARTS <br>FOR MARINE, INDUSTRIAL AND HEAVY EQUIPMENT.</h2>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.off.html"><li style="background-image: none">Home</li></a>
+        <a href="about.html"><li>About Us</li></a>
+        <a href="products.php?tipoPro=0"><li>Products</li></a>
+        <a href="manufacturing.html"><li>Manufacturing</li></a>
+        <a href="quotation.php"><li>Request for Quotation</li></a>
+        <a href="contact.php"><li>Contact us</li></a>
+      </ul>
+    </nav>
+    <section>
       <a name="a"></a>
       <aside class="aside3">
         <h2><img src="images/flecha.png" width="30px" height="30px"> &nbsp;Products</h2>
         <div>
           <ul class="listpro">
-            <li><span>&#9658;</span><a href="productos/"> Overhaul Kits</a></li>
-            <li><span>&#9658;</span><a href="productos/1"> Undercarriage</a></li>
-            <li><span>&#9658;</span><a href="productos/2"> Track roller</a></li>
-            <li><span>&#9658;</span><a href="productos/3"> Carrier roller</a></li>
-            <li><span>&#9658;</span><a href="productos/4"> Sprocket</a></li>
-            <li><span>&#9658;</span><a href="productos/5"> Idler</a></li>
-            <li><span>&#9658;</span><a href="productos/6"> Steel track Assly</a></li>
-            <li><span>&#9658;</span><a href="productos/7"> Rubber track Assly</a></li>
-            <li><span>&#9658;</span><a href="productos/8"> Track shoe</a></li>
-            <li><span>&#9658;</span><a href="productos/9"> Track link assly</a></li>
-            <li><span>&#9658;</span><a href="productos/10"> Chassis assly</a></li>
-            <li><span>&#9658;</span><a href="productos/11"> Bucket</a></li>
-            <li><span>&#9658;</span><a href="productos/12"> Graber bucket</a></li>
-            <li><span>&#9658;</span><a href="productos/13"> Teeth and adapter</a></li>
-            <li><span>&#9658;</span><a href="productos/14"> Ripper</a></li>
-            <li><span>&#9658;</span><a href="productos/15"> Side cutter</a></li>
-            <li><span>&#9658;</span><a href="productos/16"> Cutting blade and edge</a></li>
-            <li><span>&#9658;</span><a href="productos/17"> Breaking hammer</a></li>
-            <li><span>&#9658;</span><a href="productos/18"> Slewing</a></li>
-            <li><span>&#9658;</span><a href="productos/19"> Pump, cylinder & Valve</a></li>
-            <li><span>&#9658;</span><a href="productos/20"> Others</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=0"> Overhaul Kits</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=1"> Undercarriage</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=2"> Track roller</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=3"> Carrier roller</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=4"> Sprocket</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=5"> Idler</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=6"> Steel track Assly</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=7"> Rubber track Assly</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=8"> Track shoe</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=9"> Track link assly</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=10"> Chassis assly</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=11"> Bucket</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=12"> Graber bucket</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=13"> Teeth and adapter</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=14"> Ripper</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=15"> Side cutter</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=16"> Cutting blade and edge</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=17"> Breaking hammer</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=18"> Slewing</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=19"> Pump, cylinder & Valve</a></li>
+            <li><span>&#9658;</span><a href="?tipoPro=20"> Others</a></li>
           </ul>
         </div>
       </aside>
       <article class="article3">
         <?php
-          if ((isset($_GET['tipoPro']) && $_GET['tipoPro']=="0") || (isset($_GET['tipoPro']) && $_GET['tipoPro'] == null))
+          if (isset($_GET['tipoPro']) && $_GET['tipoPro']=="0" )
           {
             echo "<h2>Overhaul Kits</h2>";
             echo "<p>We supply kits for most european, american and japanese diesel engines for marine, heavy equipment or industrial. Hard to find parts. We have sources all over world, we can ship to anywhere in the world.</p><br>";
             echo "<h2>Replacement parts for</h2><br>";
             echo "<ul>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a0'> BENDIX</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a1'> BOBCAT</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a2'> CARRIER</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a3'> CASE</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a4'> CATERPILLAR</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a5'> CUMMINS</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a6'> DETROIT</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a7'> FORD</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a8'> HINO</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a9'> IHC</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a10'> ISUZU</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a11'> JOHN DEERE</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a12'> KUBOTA</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a13'> MASSEY FERGUSON</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a14'> MAZDA</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a15'> NAVISTAR</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a16'> NISSAN</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a17'> PERKINS</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a18'> THERMO-KING</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a19'> TOYOTA</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a20'> WAUKESHA</a></li>";
-            echo "<li class='prolist'><span>&#8226;</span><a href='productos/a21'> YANMAR</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a0'> BENDIX</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a1'> BOBCAT</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a2'> CARRIER</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a3'> CASE</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a4'> CATERPILLAR</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a5'> CUMMINS</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a6'> DETROIT</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a7'> FORD</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a8'> HINO</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a9'> IHC</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a10'> ISUZU</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a11'> JOHN DEERE</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a12'> KUBOTA</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a13'> MASSEY FERGUSON</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a14'> MAZDA</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a15'> NAVISTAR</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a16'> NISSAN</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a17'> PERKINS</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a18'> THERMO-KING</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a19'> TOYOTA</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a20'> WAUKESHA</a></li>";
+            echo "<li class='prolist'><span>&#8226;</span><a href='?tipoPro=a21'> YANMAR</a></li>";
             echo "</ul>";
             echo "<br><br><h4>Other models available upon <a href='quotation.php'>REQUEST</a></h4>";
           }
@@ -1113,3 +1135,33 @@
       </article>
       <div class="clear"></div>
     </section>
+    <footer>
+      <div id="footer">
+        <div>
+          <p>Euroamerica Parts & Engines, Free  Zone VBA<br>
+          Frankrijkstraat 13<br>
+          Building 4, unit 1, office 7-B<br>
+          Free zone Bushiri, Oranjestad Aruba, Dutch Caribbean<br>
+          Tel: (+297)586-2399 / Cell: (+297)594-8733<br>
+          <a href="mailto:sales@euroamericapartsandengines.com" id="mail">sales@euroamericapartsandengines.com</a><br></p>
+        </div>
+        <div>
+          <img src="images/paypal.png" width="215px">
+        </div>
+      </div>  
+      <ul>
+        <li><a href="index.off.html">Home</a></li>
+        <li>|</li>
+        <li><a href="about.html">About Us</a></li>
+        <li>|</li>
+        <li><a href="products.php?tipoPro=0">Products</a></li>
+        <li>|</li>
+        <li><a href="manufacturing.html">Manufacturing</a></li>
+        <li>|</li>
+        <li><a href="quotation.php">Request for Quotation</a></li>
+        <li>|</li>
+        <li><a href="contact.php">Contact Us</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

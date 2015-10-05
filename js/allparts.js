@@ -6,10 +6,10 @@ $('#loading').css('display', 'initial');
 
     //alert(window.location.pathname.indexOf('/'));
     
-    var count = window.location.pathname.match(/&/g) || [];
+    //var count = window.location.pathname.match(/&/g) || [];
 
    // alert(count.length);
-    alert($_GET('pag'));
+  //  alert($_GET('pag'));
 
     var v_data;
 if ($_GET('lng') == null){
@@ -29,10 +29,10 @@ if ($_GET('lng') == null){
     var idioma = $_GET('lng');
 }
 
-idioma = 'es';
+    idioma = 'es';
 
- v_data = loadLanguaje(v_data, idioma);
-    $('header').load('header.html', function(){
+  //v_data = loadLanguaje(v_data, idioma);
+    /*$('header').load('header.html', function(){
 
         changeLanguaje(v_data, 'header');
 
@@ -62,7 +62,7 @@ idioma = 'es';
         }
 
         window.location.href = window.location.pathname + '?lng=' + idioma;
-
+*/
        /*
 
          v_data = loadLanguaje(v_data, idioma);
@@ -98,20 +98,20 @@ idioma = 'es';
             changeLanguaje(v_data, '#menu');
         });
 */
-    });
+  //  });
 
-    });
+  //  });
 
 
-    $('#menu').load('menu.html', function(){
+   /* $('#menu').load('menu.html', function(){
 
         changeLanguaje(v_data, '#menu');
 
-    });
-    $('#banner').load('banner.html', function(){
+    });*/
+    //$('#banner').load('banner.html', function(){
 
 
-        changeLanguaje(v_data, '#banner');
+        //changeLanguaje(v_data, '#banner');
      var options = {
         autoPlay: true,
         nextButton: true,
@@ -123,25 +123,26 @@ idioma = 'es';
 
     $("#sequence").sequence(options).data("sequence").afterLoaded = function(){
         $(".sequence-prev, .sequence-next").fadeIn(500);
-    }
+    };
 
-});
+//});
 
-    changeLanguaje(v_data, '#content', '#content-inicio');
+   /* changeLanguaje(v_data, '#content', '#content-inicio');
 
     $('footer').load('footer.html', function(){
 
         changeLanguaje(v_data, 'footer');
 
     });
-
-
+*/
+/*
 (function($) {
 	$(function() {
 		$("#scroller").simplyScroll();
 	});
-})(jQuery);
+})(jQuery);*/
 
+$("#scroller").simplyScroll();
 
 $('header,#menu,#banner,#content,footer').css('display', 'block');
 $('#loading').css('display', 'none');
