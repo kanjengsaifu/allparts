@@ -85,7 +85,7 @@ foreach ($json as $key => $value) {
 				
 			}
                         
-                        if (strcmp($key2, '#content-inicio') === 0){
+                        if (strcmp($key2, '#content-'.$pag) === 0){
 				foreach ($value2 as $key3 => $value3) {
 					$content = str_replace($key3, $value3, $content);
 				}

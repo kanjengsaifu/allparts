@@ -10,7 +10,7 @@
 
 <section>
       <aside class="aside2">
-        <h2><img src="images/flecha.png" width="30px" height="30px"> &nbsp;Oficina</h2>
+        <h2><img src="images/flecha.png" width="30px" height="30px"> &nbsp;lateral_1</h2>
         <div>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.7530161428426!2d-70.04583441259989!3d12.532514336469548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e853883b4406b25%3A0x1e3bc5a9d9d141c3!2sFrankrijkstraat+13%2C+Oranjestad%2C+Aruba!5e0!3m2!1ses!2sve!4v1423961261317" width="213" height="182" frameborder="0" style="border:0"></iframe>          
           <br>

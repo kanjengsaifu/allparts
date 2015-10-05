@@ -28,8 +28,30 @@
 			"subtitlee_4" : "Distribuidor de repuestos para maquinaria marina."
 		},
 
-		"#content-inicio" : {
+		"#content-home.php" : {
 			"lateral_1" : "Suministramos",
+			"sublaterall_1" : "Suministramos las siguientes marcas",
+			"article_1" : "Bienvenido a All Parts & Engines",
+			"article_2" : "All Parts and Engines",
+			"article_3" : "es un distribuidor de",
+			"subarticlee_3" : "repuestos",
+			"article_4" : "para maquinaria marina, pesada e industrial,",
+			"article_5" : "Ofrecemos una línea completa de repuestos americanos, europeos y japoneses. Nuestra prioridad es proveer a nuestros clientes con productos de calidad, plenamente garantizados a precios competitivos y un servicio superior. Este compromiso continuo ha permitido a",
+			"article_6" : "convertirse en el proveedor de más rápido crecimiento y proveedor líder de equipos nuevos, reconstruidos y usados. Estamos ampliando continuamente nuestra línea de marcas para servir mejor a nuestros clientes.",			 				   
+			"article_7" : "quiere ser el número uno para todas sus necesidades en cuanto a respuestos y componentes.",
+			"article_8" : "Puedes ver todos nuestros productos",
+			"article_9" : "Al hacer clic en las imágenes",
+			"articlee_10" : "Compramos",
+			"articlee_11" : "excedentes",
+			"articlee_12" : "de piezas nuevas",
+			"articlee_13" : "Contáctenos"
+
+
+		},
+                
+                
+                "#content-about.php" : {
+			"lateral_1" : "Oficina",
 			"sublaterall_1" : "Suministramos las siguientes marcas",
 			"article_1" : "Bienvenido a All Parts & Engines",
 			"article_2" : "All Parts and Engines",
