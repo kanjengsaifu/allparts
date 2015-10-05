@@ -1,5 +1,5 @@
 $(document).ready(function(){
-alert(window.location.pathname);
+//alert(window.location.pathname);
 $('header,#menu,#banner,#content,footer').css('display', 'none');
 $('#loading').css('display', 'initial');
 
@@ -8,8 +8,8 @@ $('#loading').css('display', 'initial');
     
     var count = window.location.pathname.match(/&/g) || [];
 
-    alert(count.length);
-    
+   // alert(count.length);
+    alert($_GET('pag'));
 
     var v_data;
 if ($_GET('lng') == null){
@@ -28,6 +28,8 @@ if ($_GET('lng') == null){
 } else {
     var idioma = $_GET('lng');
 }
+
+idioma = 'es';
 
  v_data = loadLanguaje(v_data, idioma);
     $('header').load('header.html', function(){

@@ -15,7 +15,7 @@ body
 }
 a
 {
-	color: #db2b2e;
+	color: #ffcd11;
 	font-weight: bold;
 }
 header
@@ -44,6 +44,7 @@ header > div:first-child  {
 	width: 30px;
 	height: 30px;
 	margin-top: -6px;
+	right: -6px;
     position: absolute;
     float: right;
 }
@@ -130,17 +131,16 @@ header h2
 nav
 {
 	margin: 0 auto;
-	background: url(../images/nav-bg.jpg);
+	background: #f8c218;
 	width: 1050px;
 	height: 32px;
 	border-radius: 6px;
 	border: 1px solid #f8c218;
-
 }
 nav ul a
 {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	font-size: 100%;
 	
 }
@@ -245,7 +245,7 @@ aside li
 }
 aside span, .prolist span
 {
-	color: #db2b2e;
+	color: #ffcd11;
 }
 article
 {
@@ -296,15 +296,15 @@ article h3
 }
 h3 span
 {
-	color: red;
+	color: #ffcd11;
 }
 h3 a
 {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	padding: 5px 7px 5px 7px;
-	background: url(../images/nav-bg.jpg);
-
+	//background: url(../images/nav-bg.jpg);
+	background: #ffcd11;
 	border-radius: 5px;
 	font-size: 20px;
 }
@@ -314,6 +314,7 @@ footer
 	background: rgba(0,0,0,0.7);
 	padding-top: 1em;
 	padding-bottom: 1em;
+	box-shadow: 0px 0px 70px 14px white;
 }
 #footer
 {

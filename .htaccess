@@ -1,9 +1,10 @@
 <IfModule mod_rewrite.c>
 # Activar RewriteEngine
     RewriteEngine on
-#    RewriteBase /
+    RewriteBase /allparts
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
 
-    RewriteRule ^(.*)$ inicio.html$1
+    RewriteRule ^(.*)$ processor.php?pg=$1
+    #RewriteRule ^(.*)$ inicio.html
 </IfModule>
