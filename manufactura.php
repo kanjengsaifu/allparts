@@ -10,9 +10,9 @@
 
 <section>
       <aside>
-        <h2><img src="images/flecha.png" width="30px" height="30px"> &nbsp;Suministramos</h2>
+        <h2><img src="images/flecha.png" width="30px" height="30px"> &nbsp;lateral_1</h2>
         <div>
-          <p><strong>Suministramos las siguientes marcas:</strong></p>
+          <p><strong>sublaterall_1</strong></p>
           <ul>                  
             <li><span>&#9658;</span>ABB/VTR Turbocharger</li>
             <li><span>&#9658;</span>Airlflex </li>
@@ -68,16 +68,16 @@
         </div>
       </aside>
       <article>
-        <h2>Manufactura<span>de todo tipo de partes</span></h2>
-        <p>Tenemos la capacidad de fabricar cualquier tipo de piezas para equipo pesado de motores diesel, por favor háganoslo saber cuáles son sus necesidades. Trabajamos directamente con la fabricantes europeos, americanos y asiáticos que ya están fabricando piezas de repuesto para muchas otras marcas populares .</p>
-        <p>Estamos ampliando continuamente nuestra línea de marcas para servir mejor a nuestros clientes.</p>
+        <h2>article_1<span>article_2</span></h2>
+        <p>article_3</p>
+        <p>subarticlee_3</p>
         <br>
-        <h2>Para más información</h2>
-        <p>Para obtener más información acerca de nuestro servicio de fabricación y distribución de motores diesel y de piezas de repuesto para marina , pesada y equipos industriales , puede llamarnos a través de nuestros números <strong>(+297)586-2399</strong> y <strong>(+297)594-8733</strong> o enviar un mensaje haciendo click <a href="contact.php"><strong>aqui</strong></a>.</p>
+        <h2>article_4</h2>
+        <p>article_5 <strong>(+297)586-2399</strong> y <strong>(+297)594-8733</strong> article_6 <a href="contact.php"><strong>article_7</strong></a>.</p>
         <br>
-        <h2>Puedes ver todos nuestros productos<span>Al hacer clic en las imágenes</span></h2>
+        <h2>article_8<span>article_9</span></h2>
      
-        <h3 style="font-size:1.4em">Compramos <span>excedentes</span> de piezas nuevas <a href="contactanos/">Contáctenos</a></h3>
+        <h3 style="font-size:1.4em">articlee_10 <span>articlee_11</span> articlee_12 <a href="contactanos/">articlee_13</a></h3>
       </article>
       <div class="clear"></div>
        <div>

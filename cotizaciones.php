@@ -46,36 +46,36 @@
 
  <section>
       <aside class="aside2">
-        <h2><img src="images/flecha.png" width="30px" height="30px"> &nbsp;Oficina</h2>
+        <h2><img src="images/flecha.png" width="30px" height="30px"> &nbsp;lateral_1</h2>
         <div>
-          <p>País: Aruba<br>Ciudad: Oranjestad<br>
+          <p>sublaterall_1<br>article_1<br>
           Tel: (+297)586-2399<br>Cel: (+297)594-8733<br><a href="mailto:sales@euroamericapartsandengines.com" id="mail">sales@euroamericapartsandengines.com</a></p>
         </div>
         <br>
-        <h2><img src="images/flecha.png" width="30px" height="30px"> &nbsp;Horario</h2>
+        <h2><img src="images/flecha.png" width="30px" height="30px"> &nbsp;article_2</h2>
         <div>
-          <p><strong>Lun - Vie:</strong><br>8:00am - 12:00m<br>1:00pm - 5:00pm<br>
-          <strong>Sab - Dom:</strong><br><a href="mailto:sales@euroamericapartsandengines.com" id="mail">sales@euroamericapartsandengines.com</a></p>
+          <p><strong>article_3</strong><br>8:00am - 12:00m<br>1:00pm - 5:00pm<br>
+          <strong>subarticlee_3</strong><br><a href="mailto:sales@euroamericapartsandengines.com" id="mail">sales@euroamericapartsandengines.com</a></p>
         </div>
       </aside>
       <article class="article2 form">
-        <h2>Solicitud de cotización</h2>
-        <p>Por favor siempre proporcionar el número de modelo de motor , número de parte, número de serie o el tipo de equipo del cual esta solicitando un presupuesto</p>
-        <p>Los campos con * son requeridos</p>
+        <h2>article_4</h2>
+        <p>article_5</p>
+        <p>article_6</p>
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="formulario">
           <div class="formulario">
             <p><span></span>                              <?php echo $ms; ?></p>
-            <p><span>Nombre *</span>                      <input type="text" name="namex" required/></p>
-            <p><span>Empresa</span>                       <input type="text" name="company"/></p>
-            <p><span>Dirección de la empresa</span>       <input type="text" name="address"/></p>
-            <p><span>Ciudad, Estado, Codigo postal</span> <input type="text" name="city"/></p>
-            <p><span>País</span>                          <input type="text" name="country"/></p>
-            <p><span>Dirección de email *</span>          <input type="mail" name="email" required/></p>
-            <p><span>Telefono</span>                      <input type="text" name="tlf"/></p>
-            <p><span>Celular</span>                       <input type="text" name="cell"/></p>
-            <p><span>Fax</span>                           <input type="text" name="fax"/></p>
-            <p><span>Solicitud de cotización *</span>     <textarea rows="5" cols="45" name="quotation" required></textarea></p>
-            <p><span>Comentario</span>                    <textarea rows="5" cols="45" name="comment"></textarea></p>
+            <p><span>article_7 *</span>                      <input type="text" name="namex" required/></p>
+            <p><span>article_8</span>                       <input type="text" name="company"/></p>
+            <p><span>article_9</span>       <input type="text" name="address"/></p>
+            <p><span>articlee_10</span> <input type="text" name="city"/></p>
+            <p><span>articlee_11</span>                          <input type="text" name="country"/></p>
+            <p><span>articlee_12 *</span>          <input type="mail" name="email" required/></p>
+            <p><span>articlee_13</span>                      <input type="text" name="tlf"/></p>
+            <p><span>articlee_14</span>                       <input type="text" name="cell"/></p>
+            <p><span>articlee_15</span>                           <input type="text" name="fax"/></p>
+            <p><span>articlee_16 *</span>     <textarea rows="5" cols="45" name="quotation" required></textarea></p>
+            <p><span>articlee_17</span>                    <textarea rows="5" cols="45" name="comment"></textarea></p>
             <p><span>&nbsp;</span>                        <input type="submit" id="btn" value="enviar"></p>
           </div>
         </form>

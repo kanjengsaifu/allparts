@@ -37,6 +37,9 @@ $head = ob_get_contents();
 ob_end_clean(); # cierre de bufer
 //$head = file_get_contents('head.html');
 
+$idioma = 'es';
+$idiomaText = 'English';
+
 $header = file_get_contents('header.html');
 
 $menu = file_get_contents('menu.html');
@@ -62,7 +65,7 @@ $data = file_get_contents('lang.json');
 $json = json_decode($data, true);
 
 foreach ($json as $key => $value) {
-	if (strcmp($key, 'es') === 0){
+	if (strcmp($key, $idioma) === 0){
 		foreach ($value as $key2 => $value2) {
 			if (strcmp($key2, 'header') === 0){
 				foreach ($value2 as $key3 => $value3) {
@@ -87,7 +90,7 @@ foreach ($json as $key => $value) {
                         
                         if (strcmp($key2, '#content-'.$pag) === 0){
 				foreach ($value2 as $key3 => $value3) {
-					$content = str_replace($key3, $value3, $content);
+                                    $content = str_replace($key3, $value3, $content);
 				}
 				
 			}
@@ -102,7 +105,8 @@ foreach ($json as $key => $value) {
 	}
 }
 
-
+$header = str_replace('$_lang_$', $idioma, $header);
+$header = str_replace('$_LANG_$', $idiomaText, $header);
 
 echo '<!DOCTYPE html>
 <html lang="en">'.$head. '<body><header>' . $header . '</header>' . $menu . $banner . $content . '<footer>' . $footer . '</footer></body></html>';

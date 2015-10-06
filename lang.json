@@ -222,7 +222,73 @@
                         "articleee_124" : "Nuestro surtido de piezas de repuesto para Yanmar® consisten en la reforma más completa (de marco) en el mercado. También ofrecemos una amplia gama de piezas y componentes individuales, incluyendo pistones, juegos de anillo, cigüeñales, árboles de levas, bombas de aceite y agua, juntas, sellos, y muchas más piezas del motor."
 
 		},
+                
+                  "#content-manufactura.php" : {
+			"lateral_1" : "Suministramos",
+			"sublaterall_1" : "Suministramos las siguientes marcas:",
+			"article_1" : "Manufactura",
+			"article_2" : "de todo tipo de partes",
+			"article_3" : "Tenemos la capacidad de fabricar cualquier tipo de piezas para equipo pesado de motores diesel, por favor háganoslo saber cuáles son sus necesidades. Trabajamos directamente con la fabricantes europeos, americanos y asiáticos que ya están fabricando piezas de repuesto para muchas otras marcas populares .",
+			"subarticlee_3" : "Estamos ampliando continuamente nuestra línea de marcas para servir mejor a nuestros clientes.",
+			"article_4" : "Para más información",
+			"article_5" : "Para obtener más información acerca de nuestro servicio de fabricación y distribución de motores diesel y de piezas de repuesto para marina , pesada y equipos industriales , puede llamarnos a través de nuestros números",
+			"article_6" : "o enviar un mensaje haciendo click",			 				   
+			"article_7" : "aqui",
+			"article_8" : "Puedes ver todos nuestros productos",
+			"article_9" : "Al hacer clic en las imágenes",
+                        "articlee_10" : "Compramos",
+                        "articlee_11" : "excedentes",
+                        "articlee_12" : "de piezas nuevas",
+                        "articlee_13" : "Contáctenos"
 
+		},
+                
+                
+                "#content-cotizaciones.php" : {
+			"lateral_1" : "Oficina",
+			"sublaterall_1" : "País: Aruba",
+			"article_1" : "Ciudad: Oranjestad",
+			"article_2" : "Horario",
+			"article_3" : "Lun - Vie:",
+			"subarticlee_3" : "Sab - Dom:",
+			"article_4" : "Solicitud de cotización",
+			"article_5" : "Por favor siempre proporcionar el número de modelo de motor , número de parte, número de serie o el tipo de equipo del cual esta solicitando un presupuesto",
+			"article_6" : "Los campos con * son requeridos",			 				   
+			"article_7" : "Nombre",
+			"article_8" : "Empresa",
+			"article_9" : "Dirección de la empresa",
+                        "articlee_10" : "Ciudad, Estado, Codigo postal",
+                        "articlee_11" : "País",
+                        "articlee_12" : "Dirección de email",
+                        "articlee_13" : "Telefono",
+                        "articlee_14" : "Celular",
+                        "articlee_15" : "Fax",
+                        "articlee_16" : "Solicitud de cotización",
+                        "articlee_17" : "Comentario"
+
+		},
+
+
+                    "#content-contacts.php" : {
+			"lateral_1" : "Oficina",
+			"sublaterall_1" : "País: Aruba",
+			"article_1" : "Ciudad: Oranjestad",
+			"article_2" : "Horario",
+			"article_3" : "Lun - Vie:",
+			"subarticlee_3" : "Sab - Dom:",
+			"article_4" : "Contáctenos",
+			"article_5" : "Para todas las partes y repuestos que necesite póngase en contacto con nosotros.",
+			"article_6" : "Los campos con * son requeridos",			 				   
+			"article_7" : "Nombre",
+			"article_8" : "Empresa",
+			"article_9" : "Ciudad",
+                        "articlee_10" : "País",
+                        "articlee_11" : "Dirección de email",
+                        "articlee_12" : "Telefono",
+                        "articlee_13" : "Fax",
+                        "articlee_14" : "Mensaje"
+
+		},
 
 		"footer" : {
 
@@ -238,6 +304,324 @@
 			"link_4" : "Manufactura",
 			"link_5" : "Cotiaciones",
 			"link_6" : "Contáctenos"
+
+
+		}
+
+
+
+
+	},
+        
+        
+        
+        
+        "en" :	{
+
+		"header" : {
+			"title_1" : "DIESEL ENGINES AND PARTS",
+			"title_2": "FOR MARINE, INDUSTRIAL AND HEAVY EQUIPMENT."
+		},
+
+
+		"#menu" : {
+			"link_1" : "Home",
+			"link_2" : "About Us",
+			"link_3" : "Products",
+			"link_4" : "Manufacturing",
+			"link_5" : "Request for Quotation",
+			"link_6" : "Contact us"
+		},
+
+
+		"#banner" : {
+			"title_1" : "Heavy equipments",
+			"subtitlee_1" : "Distributor of spare parts for marine, heavy and industrial equipment.",
+			"title_2" : "Diesel engines",
+			"subtitlee_2" : "We supply caterpillar, cummins and detroit engines, reman, good used, complete, long block or short block engines.",
+			"title_3" : "Spare parts",
+			"subtitlee_3" : "We offer a complete line of american, european and japanese spare parts.",
+			"title_4" : "Marine equipments",
+			"subtitlee_4" : "Distributor of spare parts for marine equipment."
+		},
+
+		"#content-home.php" : {
+			"lateral_1" : "We supply",
+			"sublaterall_1" : "We supply the following brand names:",
+			"article_1" : "Welcome to All Parts & Engines",
+			"article_2" : "All Parts and Engines",
+			"article_3" : "is a distributor manufacturer of spare",
+			"subarticlee_3" : "parts",
+			"article_4" : "for marine, heavy and industrial equipment,",
+			"article_5" : "We offer a complete line of american, european and japanese spare parts. Our priority is to provide our customers with quality products, fully guaranteed at competitive prices and superior service. This ongoing commitment has enabled",
+			"article_6" : "to become the fastest growing and leading supplier of new, rebuilt and used equipment. We are continuously expanding our line of manufactured brands to better serve our customers.",			 				   
+			"article_7" : "wants to be the number one source for all your parts and component needs.",
+			"article_8" : "You can see all our products",
+			"article_9" : "Clicking on the images",
+			"articlee_10" : "We buy new",
+			"articlee_11" : "surplus",
+			"articlee_12" : "parts and engines",
+			"articlee_13" : "CONTACT US"
+
+
+		},
+                
+                
+                "#content-about.php" : {
+			"lateral_1" : "Our Office",
+			"sublaterall_1" : "All Parts and Engines",
+			"article_1" : "About us",
+			"article_2" : "is a warehouse distributor of spare",
+			"article_3" : "parts",
+			"subarticlee_3" : "for marine, heavy and industrial equipment, located in Free zone Bushiri Oranjestad, Aruba.",
+			"article_4" : "We offer a complete line of american, european and japanese spare parts. Our priority is to provide our customers with quality products, fully guaranteed at competitive prices and superior service. This ongoing commitment has enabled",
+			"article_5" : "to become the fastest growing and leading supplier of new, rebuilt and used equipment. We are continuously expanding our line of manufactured brands to better serve our customers.",
+			"article_6" : "wants to be the number one source for all your parts and component needs.",			 				   
+			"article_7" : "Address",
+			"article_8" : "Frankrijstraat 13, edificio 4 , unidad 1 , oficina 7-B Zona libre Bushiri",
+			"article_9" : "Oranjestad, Aruba, Dutch Caribbean."
+
+		},
+                
+                
+                
+                
+                "#content-products.php" : {
+                    
+                        "laterall_1" : "Productos",
+                        "laterall_2" : "Kits Reacondicionamiento",
+                        "laterall_3" : "Tren de rodaje",
+                        "laterall_4" : "Rodillo de pista",
+                        "laterall_5" : "Rodillo superior",
+                        "laterall_6" : "Rueda de espigas",
+                        "laterall_7" : "Rodillo",
+                        "laterall_8" : "Pista de acero",
+                        "laterall_9" : "Pista de goma",
+                        "lateralll_10" : "Teja",
+                        "lateralll_11" : "Conexión de oruga",
+                        "lateralll_12" : "Chasis",
+                        "lateralll_13" : "Pala",
+                        "lateralll_14" : "Pala de agarre",
+                        "lateralll_15" : "Dientes y adaptador",
+                        "lateralll_16" : "Ripper",
+                        "lateralll_17" : "Cuchilla lateral",
+                        "lateralll_18" : "Hoja de corte y borde",
+                        "lateralll_19" : "Martillo rompedor",
+                        "lateralll_20" : "Cremallera",
+                        "lateralll_21" : "Bomba, cilindro y válvula",
+                        "lateralll_22" : "Otros",
+                    
+			"lateral_1" : "Kits de reacondicionamiento",
+			"sublateraall_1" : "Suministramos kits para motores diesel europeos, americanos y japoneses de maquinaria marina, pesada o industrial. Piezas difíciles de encontrar. Podemos enviar a cualquier parte del mundo.",
+			"article_1" : "Piezas de repuesto para",
+			"article_2" : "Otros modelos disponibles bajo",
+			"article_3" : "PETICIÓN",
+			"subarticlee_3" : "Tren de rodaje",
+			"article_4" : "Rodillo de pista",
+			"article_5" : "Rodillo superior",
+			"article_6" : "Rueda de espigas",			 				   
+			"article_7" : "Rodillo",
+			"article_8" : "Pista de acero",
+			"article_9" : "Pista de goma",
+                        "articlee_10" : "Teja",
+                        "articlee_11" : "Conexión de oruga",
+                        "articlee_12" : "Chasis",
+                        "articlee_13" : "Pala",
+                        "articlee_14" : "Pala de agarre",
+                        "articlee_15" : "Dientes y adaptador",
+                        "articlee_16" : "Ripper",
+                        "articlee_17" : "Cuchilla lateral",
+                        "articlee_18" : "Hoja de corte y borde",
+                        "articlee_19" : "Martillo rompedor",
+                        "articlee_20" : "Cremallera",
+                        "articlee_21" : "Bomba, cilindro y válvula",
+                        "articlee_22" : "Otros",
+                        "articlee_23" : "Piezas de repuesto para:",
+                        "articlee_24" : "Piezas disponibles:",
+                        "articlee_25" : "PISTONES",
+                        "articlee_26" : "JUEGOS DE ANILLOS",
+                        "articlee_27" : "RODAMIENTOS",
+                        "articlee_28" : "KITS DESCARGADORES",
+                        "articlee_29" : "KITS DE CABEZA",
+                        "articlee_30" : "PINES DE CASQUILLO",
+                        "articlee_31" : "KITS DE MOTOR",
+                        "articlee_32" : "REVESTIMIENTOS",
+                        "articlee_33" : "ANILLOS",
+                        "articlee_34" : "JUEGO DE JUNTAS",
+                        "articlee_35" : "VALVULA DE TREN",
+                        "articlee_36" : "BIELA/RODAMIENTOS PRICIPALES",
+                        "articlee_37" : "TAPONES",
+                        "articlee_38" : "JUEGOS DE ARANDELAS DE EMPUJE",
+                        "articlee_39" : "KITS IN-FRAME/OUT-FRAME",
+                        "articlee_40" : "KITS DE CILINDROS",
+                        "articlee_41" : "KITS DE PISTONES",
+                        "articlee_42" : "JUEGO DE JUNTAS",
+                        "articlee_43" : "VALVULA DE TREN",
+                        "articlee_44" : "SELLOS Y OTROS",
+                        "articlee_45" : "COMPONENTES DE MOTORES INTERNACIONAL",
+                        "articlee_46" : "BOMBAS DE AGUA/TURBOCOMPRESORES",
+                        "articlee_47" : "KITS DE REVESTIMIENTOS",
+                        "articlee_48" : "BOMBAS DE AGUA/KITS DE VENTILADORES DE REPARACIÓN",
+                        "articlee_49" : "KITS DE MOTORES",
+                        "articlee_50" : "ARANDELAS DE EMPUJE",
+                        "articlee_51" : "COMPONENTES DE VALVULA DE TREN",
+                        "articlee_52" : "BOMBAS DE ACEITE",
+                        "articlee_53" : "OEM Motor & cuadro de aplicacion de unidad de potencia",
+                        "articlee_54" : "Cuadro de equipos de aplicación",
+                        "articlee_55" : "Maquinaria Industrial:",
+                        "articlee_57" : "Camiones articulados",
+                        "articlee_58" : "Camiones",
+                        "articlee_59" : "Forwarders",
+                        "articlee_60" : "Cosechadoras",
+                        "articlee_61" : "Cargadores",
+                        "articlee_62" : "Madereros",
+                        "articlee_63" : "Retroexcavadoras",
+                        "articlee_64" : "Compactadores",
+                        "articlee_65" : "Bulldozer",
+                        "articlee_66" : "Excavadoras",
+                        "articlee_67" : "Talador apilador / Loarders Login",
+                        "articlee_68" : "Elevadores",
+                        "articlee_69" : "Motoniveladoras",
+                        "articlee_70" : "Raspadores",
+                        "articlee_71" : "Skidders",
+                        "articlee_72" : "Cargadores de Ruedas",
+                        "articlee_73" : "Maquinaria Agrícola:",
+                        "articlee_74" : "Máquinas de Swing Forestal",
+                        "articlee_75" : "Cortacéspedes",
+                        "articlee_76" : "Cortacéspedes de calle",
+                        "articlee_77" : "Segadoras frontales",
+                        "articlee_78" : "Prof Cortacéspedes",
+                        "articlee_79" : "Carrete Cortacéspedes",
+                        "articlee_80" : "Cortacéspedes cubierta de Rotary",
+                        "articlee_81" : "Cortacéspedes Serie II",
+                        "articlee_82" : "Turbo Cortacéspedes",
+                        "articlee_83" : "Minicargadores",
+                        "articlee_84" : "Motoniveladoras",
+                        "articlee_85" : "Cosechadoras de caña",
+                        "articlee_86" : "Las cosechadoras",
+                        "articlee_87" : "Cosechadoras",
+                        "articlee_88" : "Recolectores de algodón",
+                        "articlee_89" : "Tractor agricola",
+                        "articlee_90" : "Forraje / cosechadoras de caña",
+                        "articlee_91" : "Pulverizadores",
+                        "articlee_92" : "Hileradoras",
+                        "articlee_93" : "Kit de reparación de la bomba de agua",
+                        "articlee_94" : "Kit de reparación de la bomba de agua",
+                        "articlee_95" : "Piezas de repuesto John Deere",
+                        "articlee_96" : "Diesel Motor y del mercado de accesorios de piezas de repuesto",
+                        "articlee_97" : "Nuestra línea de buque insignia de las piezas del motor diesel John Deere® cubre 300, 400, 500 & Power Tech (3.029-6.081) motores de la serie en las aplicaciones de generación de energía (que van desde 20KW-300KW) agrícola, construcción, marina y.",
+                        "articlee_98" : "Nuestra gama de piezas de repuesto para John Deere® incluye la reforma más completa (de marco) y A-Frame Kits en el mercado. También ofrecemos una gran selección de piezas de repuesto y componentes, incluidos los Pistons, juegos de anillo, cigüeñales, árboles de levas, bombas de aceite y agua, Inyectores, juntas, sellos, y varias piezas más motores.",
+                        "articlee_99" : "Hileradoras",
+                        "articleee_100" : "Hileradoras",
+                        "articleee_101" : "Hileradoras",
+                        "articleee_102" : "BOMBAS DE ACEITE / AGUA",
+                        "articleee_103" : "Equipo Cuadro de aplicaciones",
+                        "articleee_104" : "Manejo de materiales y equipos de aplicación industrial gráfico:",
+                        "articleee_105" : "Equipo de aplicación agrícola:",
+                        "articleee_106" : "Equipo de aplicación marina",
+                        "articleee_107" : "Piezas de recambio Perkins",
+                        "articleee_108" : "Motores Diesel y del mercado de accesorios de piezas de repuesto",
+                        "articleee_109" : "Nuestras piezas del motor diesel Perkins® cubren motores diesel y motores de gas, en 3, 4 y 6 cilindros y configuraciones incluyendo el popular 4,236 y el 100, 400, 1000, motores de la serie 1100. Estos motores se pueden encontrar en aplicaciones de generación de agrícola, construcción, marinas y de potencia (que abarcan desde 30KW-150KW).",
+                        "articleee_110" : "Nuestra selección de piezas de repuesto para Perkins® forma parte de la reforma más completa (de marco) y A-Frame Kits en el mercado. También ofrecemos una amplia selección de piezas individuales y componentes tales como pistones, conjuntos de anillo, cigüeñales, árboles de levas, Petróleo y bombas de agua, Inyectores, Juntas, Sellos, y muchos más piezas del motor.",
+                        "articleee_111" : "KITS DE REACONDICIONAMIENTO DE MOTORES",
+                        "articleee_112" : "REACONDICIONAMIENTO DE COMPRESORES",
+                        "articleee_113" : "KITS DE CONVERSIÓN",
+                        "articleee_114" : "RODAMIENTOS DE MOTORES",
+                        "articleee_115" : "CIGÜEÑALES",
+                        "articleee_116" : "SELLOS",
+                        "articleee_117" : "OTROS COMPONENTES DEL MOTOR INTERNO INCLUYENDO VALVULA DE TREN",
+                        "articleee_118" : "Cuadro de Equipo de aplicaciones",
+                        "articleee_119" : "Composición Kit Motor para aplicaciones Yanmar®",
+                        "articleee_120" : "YOK: Kits motor de reacondicionamiento incluye: Todo requeridos pistones, pasadores y retenes, cojinetes de bancada, cojinetes de biela, arandelas de empuje, retenes de cigüeñal, juego de juntas revisión completa, y pasta de juntas.",
+                        "articleee_121" : "Piezas de repuesto Yanmar",
+                        "articleee_122" : "Motores Diesel y del mercado de accesorios de piezas de repuesto",
+                        "articleee_123" : "Nuestras piezas del motor diesel Yanmar cubren los modelos / 4TNE84D / motor 4TNE84T 3TNE84D. Estos motores Yanmar se utilizan en aplicaciones de construcción, marinas y de generación de energía.",
+                        "articleee_124" : "Nuestro surtido de piezas de repuesto para Yanmar® consisten en la reforma más completa (de marco) en el mercado. También ofrecemos una amplia gama de piezas y componentes individuales, incluyendo pistones, juegos de anillo, cigüeñales, árboles de levas, bombas de aceite y agua, juntas, sellos, y muchas más piezas del motor."
+
+		},
+                
+                
+                "#content-manufactura.php" : {
+			"lateral_1" : "We supply",
+			"sublaterall_1" : "We supply the following brand names:",
+			"article_1" : "Manufacturing",
+			"article_2" : "Any type of parts",
+			"article_3" : "We have the capability of manufacturing any type of parts for heavy equipment of diesel engines, please let us know what your needs are. We work directly with european, american and asian manufacture that are already manufacturing spare parts for other popular brand names.",
+			"subarticlee_3" : "We are continuously expanding our line of manufactured brands to better serve our customers.",
+			"article_4" : "For more information",
+			"article_5" : "For more information about our service manufacturing and distribution of diesel engines and spare parts for marine, heavy and industrial equipment, you can call us through our numbers",
+			"article_6" : "or send a message by clicking",			 				   
+			"article_7" : "here",
+			"article_8" : "You can see all our products",
+			"article_9" : "Clicking on the images",
+                        "articlee_10" : "We buy new",
+                        "articlee_11" : "surplus",
+                        "articlee_12" : "parts and engines",
+                        "articlee_13" : "CONTACT US"
+
+		},
+                
+                "#content-cotizaciones.php" : {
+			"lateral_1" : "Our Office",
+			"sublaterall_1" : "Country: Aruba",
+			"article_1" : "City: Oranjestad",
+			"article_2" : "Working hours",
+			"article_3" : "Mon - Fri:",
+			"subarticlee_3" : "Sat - Sun:",
+			"article_4" : "Request for Quotation",
+			"article_5" : "Please always provide the engine model number, part number, serial number or the type of equipment you are requesting a quotation for.",
+			"article_6" : "Fields with * are required",			 				   
+			"article_7" : "Name",
+			"article_8" : "Company name",
+			"article_9" : "Company address",
+                        "articlee_10" : "City, State, Zip Code",
+                        "articlee_11" : "Country",
+                        "articlee_12" : "Email address",
+                        "articlee_13" : "Telephone number",
+                        "articlee_14" : "Cell phone",
+                        "articlee_15" : "Fax number",
+                        "articlee_16" : "Request for Quotation",
+                        "articlee_17" : "Comments"
+
+		},
+                
+                
+                "#content-contacts.php" : {
+			"lateral_1" : "Our Office",
+			"sublaterall_1" : "Country: Aruba",
+			"article_1" : "City: Oranjestad",
+			"article_2" : "Working hours",
+			"article_3" : "Mon - Fri:",
+			"subarticlee_3" : "Sat - Sun:",
+			"article_4" : "Contact Us",
+			"article_5" : "For all your parts and engines needs please contact us.",
+			"article_6" : "Fields with * are required",			 				   
+			"article_7" : "Name",
+			"article_8" : "Company name",
+			"article_9" : "City",
+                        "articlee_10" : "Country",
+                        "articlee_11" : "Email address",
+                        "articlee_12" : "Telephone number",
+                        "articlee_13" : "Fax number",
+                        "articlee_14" : "Message"
+
+		},
+
+
+		"footer" : {
+
+			"footer_1" : "All Parts & Engines",
+			"footer_2" : "Frankrijkstraat 13",
+			"footer_3" : "Edificio 4 , unidad 1 , oficina 7-B",
+			"footer_4" : "Zona libre Bushiri, Oranjestad Aruba, Dutch Caribbean",
+			"footer_5" : "Tel: (+297)586-2399 / Cel: (+297)594-8733",
+			"footer_6" : "sales@allpartsandengines.com",
+			"link_1" : "Home",
+			"link_2" : "About Us",
+			"link_3" : "Products",
+			"link_4" : "Manufacturing",
+			"link_5" : "Request for Quotation",
+			"link_6" : "Contact Us"
 
 
 		}
