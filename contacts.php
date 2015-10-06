@@ -62,7 +62,7 @@
         <h2>article_4</h2>
         <p>article_5</p>
         <p>article_6</p>
-        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="formulario">
+        <form action="<?php echo $_SERVER['REQUEST_URI']; ?>" method="post" name="formulario">
           <div class="formulario">
             <p><span></span>                     <?php echo $ms; ?></p>
             <p><span>article_7 *</span>             <input type="text" name="namex" required/></p>
