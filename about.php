@@ -18,14 +18,14 @@
         </div>
       </aside>
       <article class="article2">
-        <h2>Euroamerica Parts and Engines<span>Sobre nosotros</span></h2>
-        <p><strong>Euroamerica Parts and Engines</strong> es un distribuidor de <a href="productos.php?tipoPro=0">repuestos</a> para maquinaria marina, pesada e industrial, situado en la zona libre de Bushiri Oranjestad, Aruba.</p>
-        <p>Ofrecemos una línea completa de repuestos americanos, europeos y japoneses. Nuestra prioridad es proveer a nuestros clientes con productos de calidad, plenamente garantizados a precios competitivos y un servicio superior. Este compromiso continuo ha permitido a <strong>Euroamerica Parts and Engines</strong>, convertirse en el proveedor de más rápido crecimiento y proveedor líder de equipos nuevos, reconstruidos y usados. Estamos ampliando continuamente nuestra línea de marcas para servir mejor a nuestros clientes.</p>
-        <p><strong>Euroamerica Parts and Engines</strong>, quiere ser el número uno para todas sus necesidade en cuanto a respuestos y de componentes.</p> 
+        <h2>sublaterall_1<span>article_1</span></h2>
+        <p><strong>sublaterall_1</strong> article_2 <a href="productos/">article_3</a> subarticlee_3</p>
+        <p>article_4 <strong>sublaterall_1</strong>, article_5</p>
+        <p><strong>sublaterall_1</strong>, article_6</p> 
         <br>
-        <h2>Dirección</h2>
-        <p>Frankrijstraat 13, edificio 4 , unidad 1 , oficina 7-B Zona libre Bushiri <br>
-        Oranjestad, Aruba, Dutch Caribbean.</p>
+        <h2>article_7</h2>
+        <p>article_8 <br>
+        article_9</p>
       </article>
       <div class="clear"></div>
     </section>
