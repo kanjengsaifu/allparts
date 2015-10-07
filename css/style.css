@@ -73,13 +73,13 @@ header .lang
 	background: rgba(0,0,0,0.3);
  	cursor: pointer;
 	opacity: 0;
-	width: 100px;
+	width: 120px;
     height: 15px;
 }
 
 
 header .div-lang {
-    width: 100px;
+    width: 120px;
     height: 15px;
     position: absolute;
     z-index: 0;

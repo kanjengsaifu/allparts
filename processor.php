@@ -37,8 +37,31 @@ $head = ob_get_contents();
 ob_end_clean(); # cierre de bufer
 //$head = file_get_contents('head.html');
 
+if (isset($_GET['lng'])){
+	
+	switch ($_GET['lng']) {
+		case 's':
+			$idioma = 'es';
+			$idiomaText = 'Español';
+			break;
+		case 'n':
+			$idioma = 'en';
+			$idiomaText = 'English';
+			break;
+		case 'l':
+			$idioma = 'nl';
+			$idiomaText = 'Nederlandse';
+			break;
+		default:
+			$idioma = 'es';
+			$idiomaText = 'Español';
+			break;
+	}
+} else {
+
 $idioma = 'es';
-$idiomaText = 'English';
+$idiomaText = 'Español';
+}
 
 $header = file_get_contents('header.html');
 

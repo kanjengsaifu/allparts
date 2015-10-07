@@ -8,7 +8,13 @@
     #RewriteRule ^(.*)$ processor.php?pg=$1 [L]
    # RewriteRule ^productos/([^/]*)$ processor.php?pg=productos&id=$1 [L]
 
+   RewriteCond %{SCRIPT_FILENAME} !-d
+    RewriteCond %{SCRIPT_FILENAME} !-f
+    RewriteRule ^[es|en|nl]([^/]*)/([^/]*)/?([^/]*)/?$ processor.php?lng=$1&pg=$2&tipoPro=$3 [L]
+
 RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
     RewriteRule ^([^/]*)/?([^/]*)/?$ processor.php?pg=$1&tipoPro=$2 [L]
+
+    
 </IfModule>
