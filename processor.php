@@ -3,6 +3,8 @@
 //var_dump($_GET);
 
 if (isset($_GET['pg'])){
+
+	$_GET['pg']=str_replace('/','',$_GET['pg']);
     
     switch ($_GET['pg']){
         

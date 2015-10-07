@@ -10,7 +10,7 @@
 
    RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
-    RewriteRule ^[es|en|nl]([^/]*)/([^/]*)/?([^/]*)/?$ processor.php?lng=$1&pg=$2&tipoPro=$3 [L]
+    RewriteRule ^(es|en|nl)(.*)/([^/]*)/?([^/]*)/?$ processor.php?lng=$1&pg=$2&tipoPro=$3 [L]
 
 RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
