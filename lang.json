@@ -31,8 +31,8 @@
 		"#content-home.php" : {
 			"lateral_1" : "Suministramos",
 			"sublaterall_1" : "Suministramos las siguientes marcas",
-			"article_1" : "Bienvenido a All Parts & Engines",
-			"article_2" : "All Parts and Engines",
+			"article_1" : "Bienvenido a $_EMPNAME_$",
+			"article_2" : "$_EMPNAME_$",
 			"article_3" : "es un distribuidor de",
 			"subarticlee_3" : "repuestos",
 			"article_4" : "para maquinaria marina, pesada e industrial,",
@@ -52,7 +52,7 @@
                 
                 "#content-about.php" : {
 			"lateral_1" : "Oficina",
-			"sublaterall_1" : "All Parts and Engines",
+			"sublaterall_1" : "$_EMPNAME_$",
 			"article_1" : "Sobre nosotros",
 			"article_2" : "es un distribuidor de",
 			"article_3" : "repuestos",
@@ -219,7 +219,9 @@
                         "articleee_121" : "Piezas de repuesto Yanmar",
                         "articleee_122" : "Motores Diesel y del mercado de accesorios de piezas de repuesto",
                         "articleee_123" : "Nuestras piezas del motor diesel Yanmar cubren los modelos / 4TNE84D / motor 4TNE84T 3TNE84D. Estos motores Yanmar se utilizan en aplicaciones de construcción, marinas y de generación de energía.",
-                        "articleee_124" : "Nuestro surtido de piezas de repuesto para Yanmar® consisten en la reforma más completa (de marco) en el mercado. También ofrecemos una amplia gama de piezas y componentes individuales, incluyendo pistones, juegos de anillo, cigüeñales, árboles de levas, bombas de aceite y agua, juntas, sellos, y muchas más piezas del motor."
+                        "articleee_124" : "Nuestro surtido de piezas de repuesto para Yanmar® consisten en la reforma más completa (de marco) en el mercado. También ofrecemos una amplia gama de piezas y componentes individuales, incluyendo pistones, juegos de anillo, cigüeñales, árboles de levas, bombas de aceite y agua, juntas, sellos, y muchas más piezas del motor.",
+                        "articleee_125" : "Producto No Existente.",
+                        "articleee_126" : "Seleccione un producto del menu de la izquierda."
 
 		},
                 
@@ -292,7 +294,7 @@
 
 		"footer" : {
 
-			"footer_1" : "All Parts & Engines",
+			"footer_1" : "$_EMPNAME_$",
 			"footer_2" : "Frankrijkstraat 13",
 			"footer_3" : "Edificio 4 , unidad 1 , oficina 7-B",
 			"footer_4" : "Zona libre Bushiri, Oranjestad Aruba, Dutch Caribbean",
@@ -306,8 +308,16 @@
 			"link_6" : "Contáctenos"
 
 
-		}
+		},
 
+            "#content-error404.html" : {
+
+                  "error_1" : "Lo sentimos. Error 404",
+                  "error_2" : "Pagina Solicitada No Encontrada"
+                
+
+
+            }
 
 
 
@@ -348,8 +358,8 @@
 		"#content-home.php" : {
 			"lateral_1" : "We supply",
 			"sublaterall_1" : "We supply the following brand names:",
-			"article_1" : "Welcome to All Parts & Engines",
-			"article_2" : "All Parts and Engines",
+			"article_1" : "Welcome to $_EMPNAME_$",
+			"article_2" : "$_EMPNAME_$",
 			"article_3" : "is a distributor manufacturer of spare",
 			"subarticlee_3" : "parts",
 			"article_4" : "for marine, heavy and industrial equipment,",
@@ -369,7 +379,7 @@
                 
                 "#content-about.php" : {
 			"lateral_1" : "Our Office",
-			"sublaterall_1" : "All Parts and Engines",
+			"sublaterall_1" : "$_EMPNAME_$",
 			"article_1" : "About us",
 			"article_2" : "is a warehouse distributor of spare",
 			"article_3" : "parts",
@@ -536,7 +546,9 @@
                         "articleee_121" : "Piezas de repuesto Yanmar",
                         "articleee_122" : "Motores Diesel y del mercado de accesorios de piezas de repuesto",
                         "articleee_123" : "Nuestras piezas del motor diesel Yanmar cubren los modelos / 4TNE84D / motor 4TNE84T 3TNE84D. Estos motores Yanmar se utilizan en aplicaciones de construcción, marinas y de generación de energía.",
-                        "articleee_124" : "Nuestro surtido de piezas de repuesto para Yanmar® consisten en la reforma más completa (de marco) en el mercado. También ofrecemos una amplia gama de piezas y componentes individuales, incluyendo pistones, juegos de anillo, cigüeñales, árboles de levas, bombas de aceite y agua, juntas, sellos, y muchas más piezas del motor."
+                        "articleee_124" : "Nuestro surtido de piezas de repuesto para Yanmar® consisten en la reforma más completa (de marco) en el mercado. También ofrecemos una amplia gama de piezas y componentes individuales, incluyendo pistones, juegos de anillo, cigüeñales, árboles de levas, bombas de aceite y agua, juntas, sellos, y muchas más piezas del motor.",
+                        "articleee_125" : "Product Not in Stock.",
+                        "articleee_126" : "Select a product from the menu on the left."
 
 		},
                 
@@ -610,7 +622,7 @@
 
 		"footer" : {
 
-			"footer_1" : "All Parts & Engines",
+			"footer_1" : "$_EMPNAME_$",
 			"footer_2" : "Frankrijkstraat 13",
 			"footer_3" : "Edificio 4 , unidad 1 , oficina 7-B",
 			"footer_4" : "Zona libre Bushiri, Oranjestad Aruba, Dutch Caribbean",
@@ -624,7 +636,16 @@
 			"link_6" : "Contact Us"
 
 
-		}
+		},
+
+         "#content-error404.html" : {
+
+                  "error_1" : "We are sorry. Error 404",
+                  "error_2" : "Requested Page Not Found"
+                
+
+
+            }
 
 
 
@@ -665,8 +686,8 @@
 		"#content-home.php" : {
 			"lateral_1" : "Levering",
 			"sublaterall_1" : "Wij leveren de volgende merken",
-			"article_1" : "Welkom bij All Parts & Engines",
-			"article_2" : "All Parts and Engines",
+			"article_1" : "Welkom bij $_EMPNAME_$",
+			"article_2" : "$_EMPNAME_$",
 			"article_3" : "is een distributeur van",
 			"subarticlee_3" : "onderdelen",
 			"article_4" : "voor de scheepvaart, zware en industriële machines,",
@@ -686,7 +707,7 @@
 
              "#content-about.php" : {
                   "lateral_1" : "Kantoor",
-                  "sublaterall_1" : "All Parts and Engines",
+                  "sublaterall_1" : "$_EMPNAME_$",
                   "article_1" : "Over ons",
                   "article_2" : "is een distributeur van",
                   "article_3" : "onderdelen",
@@ -851,7 +872,9 @@
                         "articleee_121" : "Yanmar onderdelen",
                         "articleee_122" : "Dieselmotoren en aftermarket onderdelen",
                         "articleee_123" : "Onze Yanmar diesel motor onderdelen te dekken modellen / 4TNE84D / motor 4TNE84T 3TNE84D. Deze Yanmar motoren gebruikt in toepassingen in de bouw, scheepvaart en energieopwekking.",
-                        "articleee_124" : "Ons assortiment van reserveonderdelen voor Yanmar® is de meest ingrijpende hervorming (frame) op de markt. Wij bieden ook een breed scala van individuele onderdelen en componenten, inclusief zuigers, ring games, krukassen, nokkenassen, olie en water pompen, pakkingen, afdichtingen, en nog veel meer motoronderdelen."
+                        "articleee_124" : "Ons assortiment van reserveonderdelen voor Yanmar® is de meest ingrijpende hervorming (frame) op de markt. Wij bieden ook een breed scala van individuele onderdelen en componenten, inclusief zuigers, ring games, krukassen, nokkenassen, olie en water pompen, pakkingen, afdichtingen, en nog veel meer motoronderdelen.",
+                        "articleee_125" : "Geen bestaand product.",
+                        "articleee_126" : "Selecteer een product uit het menu aan de linkerkant."
 
             },
 
@@ -927,7 +950,7 @@
 
 		"footer" : {
 
-			"footer_1" : "All Parts & Engines",
+			"footer_1" : "$_EMPNAME_$",
 			"footer_2" : "Frankrijkstraat 13",
 			"footer_3" : "Edificio 4 , unidad 1 , oficina 7-B",
 			"footer_4" : "Zona libre Bushiri, Oranjestad Aruba, Dutch Caribbean",
@@ -941,7 +964,17 @@
 			"link_6" : "Contacteer ons"
 
 
-		}
+		},
+
+
+         "#content-error404.html" : {
+
+                  "error_1" : "We vinden het jammer. Error 404",
+                  "error_2" : "Gevraagde Pagina niet gevonden"
+                
+
+
+            }
 
 
 

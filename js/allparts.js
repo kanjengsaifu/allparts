@@ -112,6 +112,9 @@ if ($_GET('lng') == null){
 
 
         //changeLanguaje(v_data, '#banner');
+
+if ($('#sequence').length){
+
      var options = {
         autoPlay: true,
         nextButton: true,
@@ -124,6 +127,8 @@ if ($_GET('lng') == null){
     $("#sequence").sequence(options).data("sequence").afterLoaded = function(){
         $(".sequence-prev, .sequence-next").fadeIn(500);
     };
+
+}
 
 //});
 

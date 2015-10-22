@@ -2,6 +2,9 @@
 
 //var_dump($_GET);
 
+define('_EMPNAME_', 'All Parts & Engines');
+define('_PAGPRODUCTOS_', 'products.php');
+
 if (isset($_GET['pg'])){
 
 	$_GET['pg']=str_replace('/','',$_GET['pg']);
@@ -23,14 +26,20 @@ if (isset($_GET['pg'])){
         case 'cotizaciones':
             $pag = 'cotizaciones.php';
             break;
+        case 'home':
+	        $pag = 'home.php';
+	        break;
         default:
-            $pag = 'home.php';
+            //$pag = 'home.php';
+        	header('location: ./home/');
             break;
     }
     
 } else {
     $pag = 'home.php';
 }
+
+
 
 
 ob_start(); # apertura de bufer
@@ -73,6 +82,15 @@ $menu = file_get_contents('menu.html');
 $banner = file_get_contents('banner.html');
 
 
+if (isset($_GET['error404']) || (isset($_GET['tipoPro']) && strcmp($pag, _PAGPRODUCTOS_) != 0 && $_GET['tipoPro'] != "")){
+
+	//header('location: ../error404.html');
+
+	$pag = 'error404.html';
+	$banner ="";
+
+
+}
 
 //$content = file_get_contents($pag, false, $contexto);
 
@@ -133,5 +151,6 @@ foreach ($json as $key => $value) {
 $header = str_replace('$_lang_$', $idioma, $header);
 $header = str_replace('$_LANG_$', $idiomaText, $header);
 
-echo '<!DOCTYPE html>
-<html lang="en">'.$head. '<body><header>' . $header . '</header>' . $menu . $banner . $content . '<footer>' . $footer . '</footer></body></html>';
+echo str_replace('$_EMPNAME_$',_EMPNAME_, '<!DOCTYPE html>
+<html lang="en">'.$head. '<body><header>' . $header . '</header>' .
+ $menu . $banner . $content . '<footer>' . $footer . '</footer></body></html>');

@@ -1108,6 +1108,11 @@
                   <p>articleee_124</p>";
             echo "</div>";
             echo "<br><br><h4>article_2 <a href='cotizaciones/'>article_3</a></h4>";          
+          } else {
+
+            echo "<h2 class='padd'>articleee_125</h2>";
+            echo "<div class=''><h3>articleee_126</h3></div>";
+
           }
         ?>  
       </article>

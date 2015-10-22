@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
 # Activar RewriteEngine
     RewriteEngine on
-   # RewriteBase /allparts
+    #RewriteBase /allparts
    # RewriteCond %{SCRIPT_FILENAME} !-d
     #RewriteCond %{SCRIPT_FILENAME} !-f
 
@@ -15,6 +15,11 @@
 RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
     RewriteRule ^([^/]*)/?([^/]*)/?$ processor.php?pg=$1&tipoPro=$2 [L]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+    RewriteCond %{SCRIPT_FILENAME} !-f
+    RewriteRule ^(.*)$ processor.php?error404
+    #ErrorDocument 404 /error404.html
 
     
 </IfModule>
