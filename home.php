@@ -70,14 +70,14 @@
       </aside>
       <article>
         <h2>article_1</h2>
-        <p><strong>article_2</strong> article_3 <a href="productos.php?tipoPro=0">subarticlee_3</a> article_4
+        <p><strong>article_2</strong> article_3 <a href="productos/">subarticlee_3</a> article_4
          <p style="color:red;">situado en la zona libre de Bushiri Oranjestad, Aruba.</p></p>
         <p>article_5 <strong>article_2</strong>, article_6</p>
         <p><strong>article_2</strong>, article_7</p>                                  
         <br>
        <!-- <h2>article_8<span>article_9</span></h2> -->
         
-        <h3 style="font-size:1.4em">articlee_10 <span>articlee_11</span> articlee_12 <br><a href="contact.php">articlee_13</a></h3>
+        <h3 style="font-size:1.4em">articlee_10 <span>articlee_11</span> articlee_12 <br><a href="contactanos/">articlee_13</a></h3>
       </article>
       <div class="clear"></div>
 

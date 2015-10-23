@@ -70,7 +70,7 @@ if (isset($_GET['lng'])){
 	}
 } else {
 
-$idioma = 'es';
+$idioma = 'en';
 $idiomaText = 'Español';
 }
 

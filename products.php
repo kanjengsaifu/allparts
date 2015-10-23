@@ -16,7 +16,7 @@
             <li><span>&#9658;</span><a href="productos/7"> laterall_9</a></li>
             <li><span>&#9658;</span><a href="productos/8"> lateralll_10</a></li>
             <li><span>&#9658;</span><a href="productos/9"> lateralll_11</a></li>
-            <li><span>&#9658;</span><a href="productos/10"> laterall_12</a></li>
+            <li><span>&#9658;</span><a href="productos/10"> lateralll_12</a></li>
             <li><span>&#9658;</span><a href="productos/11"> lateralll_13</a></li>
             <li><span>&#9658;</span><a href="productos/12"> lateralll_14</a></li>
             <li><span>&#9658;</span><a href="productos/13"> lateralll_15</a></li>
@@ -62,8 +62,7 @@
             echo "<li class='prolist'><span>&#8226;</span><a href='productos/a21'> YANMAR</a></li>";
             echo "</ul>";
             echo "<br><br><h4>article_2 <a href='cotizaciones/'>article_3</a></h4>";
-          }
-          if (isset($_GET['tipoPro']) && $_GET['tipoPro']=="1" )
+          } else if (isset($_GET['tipoPro']) && $_GET['tipoPro']=="1" )
           {
             echo "<h2>subarticlee_3</h2><br>";
             echo "<img width='130' height='110' src='images/pro/1/1.jpg'>";
