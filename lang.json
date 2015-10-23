@@ -1231,48 +1231,48 @@
 		},
                 
                 "#content-cotizaciones.php" : {
-			"lateral_1" : "Our Office",
-			"sublaterall_1" : "Country: Aruba",
-			"article_1" : "City: Oranjestad",
-			"article_2" : "Working hours",
-			"article_3" : "Mon - Fri:",
-			"subarticlee_3" : "Sat - Sun:",
-			"article_4" : "Request for Quotation",
-			"article_5" : "Please always provide the engine model number, part number, serial number or the type of equipment you are requesting a quotation for.",
-			"article_6" : "Fields with * are required",			 				   
+			"lateral_1" : "Unser Büro",
+			"sublaterall_1" : "Land: Aruba",
+			"article_1" : "Stadt: Oranjestad",
+			"article_2" : "Arbeitsstunden",
+			"article_3" : "Mon - Fre:",
+			"subarticlee_3" : "Son - Sonn:",
+			"article_4" : "Angebotsanfrage",
+			"article_5" : "Bitte geben Sie den Motor immer Modellnummer, Artikelnummer, Seriennummer oder die Art der Ausrüstung, die Sie fordern ein Angebot.",
+			"article_6" : "Felder mit einem * sind pflicht",			 				   
 			"article_7" : "Name",
-			"article_8" : "Company name",
-			"article_9" : "Company address",
-                        "articlee_10" : "City, State, Zip Code",
-                        "articlee_11" : "Country",
-                        "articlee_12" : "Email address",
-                        "articlee_13" : "Telephone number",
-                        "articlee_14" : "Cell phone",
-                        "articlee_15" : "Fax number",
-                        "articlee_16" : "Request for Quotation",
+			"article_8" : "Firmenname",
+			"article_9" : "Firmenanschrift",
+                        "articlee_10" : "Stadt, Staats,  Postleitzahl",
+                        "articlee_11" : "Land",
+                        "articlee_12" : "E-Mail-Addresse",
+                        "articlee_13" : "Telefonnummer",
+                        "articlee_14" : "Handy",
+                        "articlee_15" : "Faxnummer",
+                        "articlee_16" : "Angebotsanfrage",
                         "articlee_17" : "Comments"
 
 		},
                 
                 
                 "#content-contacts.php" : {
-			"lateral_1" : "Our Office",
-			"sublaterall_1" : "Country: Aruba",
-			"article_1" : "City: Oranjestad",
-			"article_2" : "Working hours",
-			"article_3" : "Mon - Fri:",
-			"subarticlee_3" : "Sat - Sun:",
-			"article_4" : "Contact Us",
-			"article_5" : "For all your parts and engines needs please contact us.",
-			"article_6" : "Fields with * are required",			 				   
+			"lateral_1" : "Unser Büro",
+			"sublaterall_1" : "Land: Aruba",
+			"article_1" : "Stadt: Oranjestad",
+			"article_2" : "Arbeitsstunden",
+			"article_3" : "Mon - Fre:",
+			"subarticlee_3" : "Son - Sonn:",
+			"article_4" : "Kontaktiere uns",
+			"article_5" : "Für alle Ihre Teile und Motoren muss kontaktieren Sie uns bitte.",
+			"article_6" : "Felder mit einem * sind pflicht",			 				   
 			"article_7" : "Name",
-			"article_8" : "Company name",
-			"article_9" : "City",
-                        "articlee_10" : "Country",
-                        "articlee_11" : "Email address",
-                        "articlee_12" : "Telephone number",
-                        "articlee_13" : "Fax number",
-                        "articlee_14" : "Message"
+			"article_8" : "Firmenname",
+			"article_9" : "Stadt",
+                        "articlee_10" : "Land",
+                        "articlee_11" : "E-Mail-Addresse",
+                        "articlee_12" : "Telefonnummer",
+                        "articlee_13" : "Faxnummer",
+                        "articlee_14" : "Meldung"
 
 		},
 
@@ -1281,24 +1281,24 @@
 
 			"footer_1" : "$_EMPNAME_$",
 			"footer_2" : "Frankrijkstraat 13",
-			"footer_3" : "Edificio 4 , unidad 1 , oficina 7-B",
+			"footer_3" : "Gebäude 4 , Einheit 1 , Büro 7-B",
 			"footer_4" : "Zona libre Bushiri, Oranjestad Aruba, Dutch Caribbean",
 			"footer_5" : "Tel: (+297)586-2399 / Cel: (+297)594-8733",
 			"footer_6" : "sales@allpartsandengines.com",
-			"link_1" : "Home",
-			"link_2" : "About Us",
-			"link_3" : "Products",
-			"link_4" : "Manufacturing",
-			"link_5" : "Request for Quotation",
-			"link_6" : "Contact Us"
+			"link_1" : "Zu Hause",
+			"link_2" : "Über uns",
+			"link_3" : "Produkte",
+			"link_4" : "Herstellungs",
+			"link_5" : "Angebotsanfrage",
+			"link_6" : "Kontaktiere uns"
 
 
 		},
 
          "#content-error404.html" : {
 
-                  "error_1" : "We are sorry. Error 404",
-                  "error_2" : "Requested Page Not Found"
+                  "error_1" : "Wir entschuldigen uns. Error 404",
+                  "error_2" : "Angeforderte Seite nicht gefunden"
                 
 
 
